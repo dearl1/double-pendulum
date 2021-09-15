@@ -11,3 +11,6 @@ This contains the following values:
 * The angle (rad) of the second pendulum
 * The magnitude of the time step (s) that will be used
 * The time (s) at which the simulation should stop
+
+The system is integrated using a fourth-order Runge-Kutta numerical scheme.  
+For each time step the current time as well as the x, y co-ordinates of each of the pendulum's masses are written to a text file called output.txt
